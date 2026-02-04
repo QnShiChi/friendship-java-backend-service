@@ -119,6 +119,8 @@ public class FriendshipServiceImpl implements FriendshipService {
                 .collect(Collectors.toList());
     }
 
+    // Test git pull
+
     @Override
     public List<FriendshipResponseDTO> getFriendsOfOtherUser(Long userId) {
         User currentUser = securityUtil.getCurrentUser();
